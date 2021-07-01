@@ -11,6 +11,9 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
+            name: "CollectionExtension",
+            targets: ["CollectionExtension"]),
+        .library(
             name: "StringExtension",
             targets: ["StringExtension"]),
         .library(
@@ -23,9 +26,15 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "CollectionExtension",
+            dependencies: [],
+            path: "CollectionExtension"),
+        
+        .target(
             name: "StringExtension",
             dependencies: [],
             path: "StringExtension"),
+        
         .target(
             name: "DateExtension",
             dependencies: [],

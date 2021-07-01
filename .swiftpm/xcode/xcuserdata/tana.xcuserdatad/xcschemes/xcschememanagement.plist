@@ -37,7 +37,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>DateExtension</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>String+Extension</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>StringExtension</key>
 		<dict>
 			<key>primary</key>
 			<true/>

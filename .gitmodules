@@ -4,3 +4,6 @@
 [submodule "Date-Extension"]
 	path = Date-Extension
 	url = https://github.com/tana90/Date-Extension.git
+[submodule "DateExtension"]
+	path = DateExtension
+	url = https://github.com/tana90/DateExtension.git

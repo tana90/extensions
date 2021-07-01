@@ -7,3 +7,6 @@
 [submodule "DateExtension"]
 	path = DateExtension
 	url = https://github.com/tana90/DateExtension.git
+[submodule "StringExtension"]
+	path = StringExtension
+	url = https://github.com/tana90/StringExtension.git

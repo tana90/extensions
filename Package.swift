@@ -22,10 +22,10 @@ let package = Package(
         .target(
             name: "String+Extension",
             dependencies: [],
-            path: "String+Extension/"),
+            path: "String-Extension"),
         .target(
             name: "Date+Extension",
             dependencies: [],
-            path: "Date+Extension/")
+            path: "Date-Extension")
     ]
 )

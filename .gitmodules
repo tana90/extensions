@@ -1,0 +1,6 @@
+[submodule "String-Extension"]
+	path = String-Extension
+	url = https://github.com/tana90/String-Extension.git
+[submodule "Date-Extension"]
+	path = Date-Extension
+	url = https://github.com/tana90/Date-Extension.git

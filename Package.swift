@@ -8,11 +8,11 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "String+Extension",
-            targets: ["String+Extension"]),
+            name: "StringExtension",
+            targets: ["StringExtension"]),
         .library(
-            name: "Date+Extension",
-            targets: ["Date+Extension"])
+            name: "DateExtension",
+            targets: ["DateExtension"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,12 +20,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "String+Extension",
+            name: "StringExtension",
             dependencies: [],
-            path: "String-Extension"),
+            path: "StringExtension"),
         .target(
-            name: "Date+Extension",
+            name: "DateExtension",
             dependencies: [],
-            path: "Date-Extension")
+            path: "DateExtension")
     ]
 )

@@ -4,3 +4,6 @@
 [submodule "StringExtension"]
 	path = StringExtension
 	url = https://github.com/tana90/StringExtension.git
+[submodule "CollectionExtension"]
+	path = CollectionExtension
+	url = https://github.com/tana90/CollectionExtension.git
